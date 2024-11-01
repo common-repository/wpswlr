@@ -1,0 +1,511 @@
+# Copyright (C) 2023 bttrs
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPSwlr 1.2.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpswlr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-02T12:14:59+00:00\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: wpswlr\n"
+
+#. Plugin Name of the plugin
+msgid "WPSwlr"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wpswlr.bttrs.org"
+msgstr ""
+
+#. Description of the plugin
+msgid "Load posts from your Facebook Page feed to the WordPress website in a simple way."
+msgstr ""
+
+#. Author of the plugin
+msgid "bttrs"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://bttrs.org"
+msgstr ""
+
+#: src/Facebook/Client/FacebookClient.php:45
+#: src/Facebook/Client/FacebookClient.php:72
+#: src/Facebook/Client/FacebookClient.php:99
+msgid "Missing Facebook Token"
+msgstr ""
+
+#: src/Facebook/Client/FacebookClient.php:51
+#: src/Facebook/Client/FacebookClient.php:78
+#: src/Facebook/Client/FacebookClient.php:138
+msgid "Wrong Facebook response"
+msgstr ""
+
+#: src/Facebook/Client/FacebookClient.php:102
+msgid "Missing Facebook Page ID"
+msgstr ""
+
+#: src/Facebook/Client/FacebookClient.php:135
+msgid "Wrong Facebook response: %s"
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:95
+msgid "Facebook Posts"
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:96
+msgid "Facebook Post"
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:97
+msgid "All Facebook Posts"
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:98
+msgid "Facebook Post Preview"
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:99
+msgid "View Facebook Post"
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:100
+msgid "View Facebook Posts"
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:101
+msgid "Search Facebook Posts"
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:102
+msgid "No Facebook Posts found"
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:103
+msgid "No Facebook Posts found in trash"
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:104
+msgid "Filter Facebook Posts list"
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:105
+msgid "Facebook Posts list navigation"
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:106
+msgid "Facebook Posts list"
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:107
+msgid "Facebook Posts attributes"
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:108
+msgid "Facebook Post published."
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:109
+msgid "Facebook Post published privately."
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:110
+msgid "Facebook Post reverted to draft."
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:111
+msgid "Facebook Post scheduled."
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:116
+msgid "Posts loaded from Facebook feed"
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:292
+msgid "Featured Image"
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:309
+msgid "Facebook Info"
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:315
+msgid "Post ID"
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:322
+msgid "URL"
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:366
+msgid "Preview"
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPost.php:372
+msgid "Open Original"
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPostTemplateAlbum.php:17
+msgid "Facebook Post Album Templates"
+msgstr ""
+
+#: src/Facebook/PostTypes/FacebookPostTemplateGeneral.php:17
+#: src/Facebook/PostTypes/FacebookPostTemplateVideo.php:17
+msgid "Facebook Post Video Templates"
+msgstr ""
+
+#: src/Facebook/Services/ConnectService.php:44
+msgid "You must disconnect existing page before connecting a new one."
+msgstr ""
+
+#: src/Facebook/Services/FacebookLoaderService.php:140
+#: src/Facebook/Services/FacebookLoaderService.php:158
+msgid "Failed to load Facebook data"
+msgstr ""
+
+#: src-ui/src/_i18n.js:7
+msgid "Failed to import categories."
+msgstr ""
+
+#: src-ui/src/_i18n.js:8
+msgid "Loading of options failed"
+msgstr ""
+
+#: src-ui/src/_i18n.js:9
+msgid "Loading..."
+msgstr ""
+
+#: src-ui/src/_i18n.js:10
+msgid "Facebook page was successfully connected."
+msgstr ""
+
+#: src-ui/src/_i18n.js:11
+msgid "This field must be at least {0}."
+msgstr ""
+
+#: src-ui/src/_i18n.js:12
+msgid "This field must be at most {0}."
+msgstr ""
+
+#: src-ui/src/_i18n.js:13
+msgid "This field must be at least {0} character long."
+msgstr ""
+
+#: src-ui/src/_i18n.js:14
+msgid "This field must be at most {0} characters long."
+msgstr ""
+
+#: src-ui/src/_i18n.js:15
+msgid "This field is required."
+msgstr ""
+
+#: src-ui/src/_i18n.js:16
+msgid "This field must contain only numbers, lowercase letters and - (dash). It can't start or end with dash."
+msgstr ""
+
+#: src-ui/src/_i18n.js:20
+msgid "Unexpected Error"
+msgstr ""
+
+#: src-ui/src/_i18n.js:21
+msgid "You can try to"
+msgstr ""
+
+#: src-ui/src/_i18n.js:22
+msgid "reload page"
+msgstr ""
+
+#: src-ui/src/_i18n.js:25
+msgid "Authorization Expired"
+msgstr ""
+
+#: src-ui/src/_i18n.js:26
+msgid "Token is expired"
+msgstr ""
+
+#: src-ui/src/_i18n.js:27
+msgid "Missing required scopes: pages_read_engagement, pages_read_user_content"
+msgstr ""
+
+#: src-ui/src/_i18n.js:28
+msgid "Facebook SDK can't be loaded"
+msgstr ""
+
+#: src-ui/src/_i18n.js:29
+msgid "Access token will expire on {0}. Consider using an access token without expiration."
+msgstr ""
+
+#: src-ui/src/_i18n.js:33
+msgid "Token can't be validated. Facebook returned an error: {0}."
+msgstr ""
+
+#: src-ui/src/_i18n.js:34
+msgid "Failed to get access token"
+msgstr ""
+
+#: src-ui/src/_i18n.js:35
+msgid "Unknown Error"
+msgstr ""
+
+#: src-ui/src/_i18n.js:37
+msgid "Disconnect"
+msgstr ""
+
+#: src-ui/src/_i18n.js:38
+msgid "Reconnect"
+msgstr ""
+
+#: src-ui/src/_i18n.js:39
+msgid "Update Facebook Data"
+msgstr ""
+
+#: src-ui/src/_i18n.js:40
+msgid "This can be caused by an issue on the Facebook side. If this message won't disappear in 5 days, it could be an issue with your access token."
+msgstr ""
+
+#: src-ui/src/_i18n.js:44
+msgid "Loading page info from Facebook failed with an error:"
+msgstr ""
+
+#: src-ui/src/_i18n.js:45
+msgid "Importing posts from Facebook failed with an error:"
+msgstr ""
+
+#: src-ui/src/_i18n.js:46
+msgid "Username:"
+msgstr ""
+
+#: src-ui/src/_i18n.js:49
+msgid "You need to select account you want to import."
+msgstr ""
+
+#: src-ui/src/_i18n.js:50
+msgid "App ID"
+msgstr ""
+
+#: src-ui/src/_i18n.js:51
+msgid "App Secret"
+msgstr ""
+
+#: src-ui/src/_i18n.js:52
+msgid "Connect Page"
+msgstr ""
+
+#: src-ui/src/_i18n.js:53
+msgid "Facebook App"
+msgstr ""
+
+#: src-ui/src/_i18n.js:54
+#: src-ui/src/_i18n.js:61
+msgid "Token"
+msgstr ""
+
+#: src-ui/src/_i18n.js:55
+msgid "Load Pages"
+msgstr ""
+
+#: src-ui/src/_i18n.js:56
+msgid "Both App ID and App Secret have to be set."
+msgstr ""
+
+#: src-ui/src/_i18n.js:57
+msgid "Both Token and Page ID have to be set."
+msgstr ""
+
+#: src-ui/src/_i18n.js:58
+msgid "You don't have any facebook pages."
+msgstr ""
+
+#: src-ui/src/_i18n.js:59
+msgid "Page ID"
+msgstr ""
+
+#: src-ui/src/_i18n.js:60
+msgid "Reset"
+msgstr ""
+
+#: src-ui/src/_i18n.js:62
+msgid "If you don't have a Facebook Access Token you can generate one by following our step-by-step tutorial"
+msgstr ""
+
+#: src-ui/src/_i18n.js:66
+msgid "If you don't have a Facebook App you can create one by following our step-by-step tutorial"
+msgstr ""
+
+#: src-ui/src/_i18n.js:70
+msgid "step-by-step guide"
+msgstr ""
+
+#: src-ui/src/_i18n.js:71
+msgid "App ID must be a numeric value."
+msgstr ""
+
+#: src-ui/src/_i18n.js:72
+msgid "Page ID must be a numeric value."
+msgstr ""
+
+#: src-ui/src/_i18n.js:75
+msgid "Add New Item"
+msgstr ""
+
+#: src-ui/src/_i18n.js:76
+msgid "Album Category"
+msgstr ""
+
+#: src-ui/src/_i18n.js:77
+msgid "Album Template"
+msgstr ""
+
+#: src-ui/src/_i18n.js:78
+msgid "Selected categories will be assigned to posts imported from Facebook"
+msgstr ""
+
+#: src-ui/src/_i18n.js:79
+msgid "Default categories"
+msgstr ""
+
+#: src-ui/src/_i18n.js:80
+msgid "Enabled Post Types"
+msgstr ""
+
+#: src-ui/src/_i18n.js:81
+msgid "Exclude Patterns"
+msgstr ""
+
+#: src-ui/src/_i18n.js:82
+msgid "Only import posts that don't match any of exclude patterns. If no patterns are defined, posts won't be filtered. Patterns are compared case insensitive and can contain wildcard characters * (asterisk) and ? (question mark). * matches any number of any characters (non-greedy). ? matches a single character."
+msgstr ""
+
+#: src-ui/src/_i18n.js:86
+msgid "General Category"
+msgstr ""
+
+#: src-ui/src/_i18n.js:87
+msgid "Will be used if no other category applies."
+msgstr ""
+
+#: src-ui/src/_i18n.js:88
+msgid "General Template"
+msgstr ""
+
+#: src-ui/src/_i18n.js:89
+msgid "Image Category"
+msgstr ""
+
+#: src-ui/src/_i18n.js:90
+msgid "Include Patterns"
+msgstr ""
+
+#: src-ui/src/_i18n.js:91
+msgid "Only import posts that match at least one of include patterns. If no patterns are defined, posts won't be filtered. Patterns are compared case insensitive and can contain wildcard characters * (asterisk) and ? (question mark). * matches any number of any characters (non-greedy). ? matches a single character."
+msgstr ""
+
+#: src-ui/src/_i18n.js:95
+msgid "Albums"
+msgstr ""
+
+#: src-ui/src/_i18n.js:96
+msgid "Photos as Featured Images"
+msgstr ""
+
+#: src-ui/src/_i18n.js:97
+msgid "Galleries with Featured Images"
+msgstr ""
+
+#: src-ui/src/_i18n.js:98
+msgid "Create a Feature image from the first photo in album."
+msgstr ""
+
+#: src-ui/src/_i18n.js:99
+msgid "Import photos as Featured Images. If disabled, photos will be added to the post body."
+msgstr ""
+
+#: src-ui/src/_i18n.js:103
+msgid "Videos"
+msgstr ""
+
+#: src-ui/src/_i18n.js:104
+msgid "Max Imported Posts"
+msgstr ""
+
+#: src-ui/src/_i18n.js:105
+msgid "A value larger than 100 can cause performance issues."
+msgstr ""
+
+#: src-ui/src/_i18n.js:106
+msgid "Posts slug prefix"
+msgstr ""
+
+#: src-ui/src/_i18n.js:107
+msgid "Prefix used in single post URL. For example: https://www.mysite.sk/wpswlr-facebook-post/my-post"
+msgstr ""
+
+#: src-ui/src/_i18n.js:111
+msgid "Remove Item"
+msgstr ""
+
+#: src-ui/src/_i18n.js:112
+msgid "Save Changes"
+msgstr ""
+
+#: src-ui/src/_i18n.js:113
+msgid "Settings successfully saved"
+msgstr ""
+
+#: src-ui/src/_i18n.js:114
+msgid "Failed to save settings"
+msgstr ""
+
+#: src-ui/src/_i18n.js:115
+msgid "You can modify the appearance of imported posts by editing templates. You can reorder blocks or change their format. For example, change text-align or set it bold. When posts are imported, image/album/video and text will be replaced with content from Facebook. Click on the links below to edit templates:"
+msgstr ""
+
+#: src-ui/src/_i18n.js:119
+msgid "Import Options"
+msgstr ""
+
+#: src-ui/src/_i18n.js:120
+msgid "Display Options"
+msgstr ""
+
+#: src-ui/src/_i18n.js:121
+msgid "Show Excerpt in List"
+msgstr ""
+
+#: src-ui/src/_i18n.js:122
+msgid "Show only specified number of characters fom post in a list of posts. If post is longer, add link to post."
+msgstr ""
+
+#: src-ui/src/_i18n.js:126
+msgid "Posts title"
+msgstr ""
+
+#: src-ui/src/_i18n.js:127
+msgid "Title assigned to each imported post. Placeholder \"{date}\" will be replaced by date when post was published."
+msgstr ""
+
+#: src-ui/src/_i18n.js:131
+msgid "Excerpt Length"
+msgstr ""
+
+#: src-ui/src/_i18n.js:132
+msgid "Excerpt Link Text"
+msgstr ""
+
+#: src-ui/src/_i18n.js:133
+msgid "Post Templates"
+msgstr ""
+
+#: src-ui/src/_i18n.js:134
+msgid "Video Category"
+msgstr ""
+
+#: src-ui/src/_i18n.js:135
+msgid "Video Template"
+msgstr ""
+
+#: src-ui/src/_i18n.js:139
+msgid "Dismiss this alert."
+msgstr ""

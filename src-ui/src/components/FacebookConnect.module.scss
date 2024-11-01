@@ -1,0 +1,48 @@
+.button {
+    margin: 0 3px !important;
+}
+
+.noPages {
+    text-align: center;
+}
+
+.accountsList {
+    margin: 15px 0;
+}
+
+.accountItem {
+    display: flex;
+    width: 100%;
+    padding: 8px;
+    border: 0 none;
+    text-align: left;
+    background: inherit;
+    cursor: pointer;
+
+    &:hover {
+        background: lighten(#2271b1, 30%);
+    }
+
+    &.active {
+        background: #2271b1;
+        color: #fff;
+    }
+}
+
+.accountImage {
+    flex: 0 0 auto;
+
+    img {
+        border-radius: 50%;
+    }
+}
+
+.accountText {
+    flex: 1 1 100%;
+    padding-left: 10px;
+}
+
+.accountName {
+    font-weight: bold;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,18 @@
+.wp-block-gallery .components-form-file-upload,
+.wp-block-gallery .components-drop-zone,
+.wp-block-image .block-editor-rich-text__editable,
+.wp-block-gallery .block-editor-rich-text__editable,
+.wp-block-video .block-editor-rich-text__editable {
+    display: none !important;
+}
+
+#wpswlr-reset-button {
+    margin-left: 8px;
+    display: inline-block;
+}
+
+.components-notice.is-info .components-notice__content {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.1em;
+}

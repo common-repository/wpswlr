@@ -1,0 +1,57 @@
+/* header left */
+.edit-post-header .edit-post-header-toolbar__left .editor-history__undo,
+.edit-post-header .edit-post-header-toolbar__left .editor-history__redo,
+.edit-post-header .edit-post-header-toolbar__left .edit-post-header-toolbar__list-view-toggle,
+.edit-post-header .edit-post-header-toolbar__left .edit-post-header-toolbar__inserter-toggle,
+.edit-post-header .edit-post-header-toolbar__left .components-dropdown:not(.table-of-contents) {
+    display: none !important;
+}
+
+/* header right */
+.edit-post-header .edit-post-header__settings .components-dropdown-menu.edit-post-more-menu {
+    display: none !important;
+}
+
+/* sidebar - left */
+.edit-post-editor__list-view-panel,
+.edit-post-editor__inserter-panel {
+    display: none !important;
+}
+
+/* sidebar - right */
+.interface-interface-skeleton__sidebar .block-editor-block-inspector,
+.interface-interface-skeleton__sidebar .block-editor-block-inspector__no-blocks {
+    display: none !important;
+}
+
+/* content toolbar */
+.edit-post-visual-editor .block-editor-block-contextual-toolbar,
+.edit-post-visual-editor .block-editor-block-toolbar {
+    display: none !important;
+}
+
+/* content inserter */
+.edit-post-visual-editor .components-popover,
+.edit-post-visual-editor .block-list-appender,
+.block-editor-block-list__insertion-point-popover {
+    display: none !important;
+}
+
+/* content */
+.wp-block-image .block-editor-rich-text__editable,
+.wp-block-gallery .blocks-gallery-media-placeholder-wrapper,
+.wp-block-gallery .components-form-file-upload,
+.wp-block-gallery .components-drop-zone,
+.wp-block-gallery .block-editor-rich-text__editable,
+.wp-block-video .block-editor-rich-text__editable {
+    display: none !important;
+}
+
+.edit-post-visual-editor p,
+.edit-post-visual-editor figure {
+    opacity: 1 !important;
+}
+
+.edit-post-visual-editor {
+    pointer-events: none;
+}

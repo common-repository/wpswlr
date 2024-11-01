@@ -1,0 +1,30 @@
+.cardBody {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.cardImage {
+    flex: 0 0 auto;
+    padding-top: 15px;
+
+    img {
+        border-radius: 50%;
+    }
+}
+
+.cardContent {
+    flex: 1 1 100%;
+    padding-left: 18px;
+}
+
+.cardButtons {
+    display: flex;
+    gap: 1em;
+    justify-content: flex-end;
+
+    .disabled {
+        color: #3c434a;
+        cursor: not-allowed;
+        text-decoration: none;
+    }
+}
